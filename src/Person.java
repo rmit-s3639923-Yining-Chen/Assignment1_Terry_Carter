@@ -1,0 +1,39 @@
+
+public class Person {
+	private String Name;
+	private int Age;
+	private String Status;
+	
+	public Person(String name, int age, String status) {
+		Name = name;
+		Age = age;
+		Status = status;
+	}
+	
+	public Person() {}
+
+	public String getName() {
+		return Name;
+	}
+
+	public void setName(String name) {
+		Name = name;
+	}
+
+	public int getAge() {
+		return Age;
+	}
+
+	public void setAge(int age) {
+		Age = age;
+	}
+
+	public String getStatus() {
+		return Status;
+	}
+
+	public void setStatus(String status) {
+		Status = status;
+	}
+		
+}
